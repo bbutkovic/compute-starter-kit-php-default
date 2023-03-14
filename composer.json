@@ -1,0 +1,21 @@
+{
+    "name": "bbutkovic/compute-starter-kit-php-default",
+    "description": "A basic starter kit that demonstrates response and Geolocation.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Borna Butković",
+            "email": "dev@bbutkovic.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:bbutkovic/fastly-php-runtime-tool.git"
+        }
+    ],
+    "require-dev": {
+        "bbutkovic/fastly-php-runtime-tool": "dev-main"
+    }
+}

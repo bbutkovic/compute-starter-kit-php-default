@@ -1,0 +1,11 @@
+# This file describes a Fastly Compute@Edge package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = ["<dev@bbutkovic.com>"]
+description = "A basic starter kit that demonstrates response and Geolocation."
+language = "other" # todo: change this to php once it is officially supported
+manifest_version = 2
+name = "Default starter for PHP"
+
+[scripts]
+build = "vendor/bin/fastly-compute-php bundle -o bin/main.wasm index.php"

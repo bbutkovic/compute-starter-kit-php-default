@@ -9,14 +9,8 @@
             "email": "dev@bbutkovic.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:bbutkovic/fastly-php-runtime-tool.git"
-        }
-    ],
     "require-dev": {
-        "bbutkovic/fastly-php-runtime-tool": "dev-main"
+        "bbutkovic/fastly-php-runtime-tool": "^1.0.0"
     },
     "scripts": {
         "post-install-cmd": "vendor/bin/fastly-compute-php stubs:download",

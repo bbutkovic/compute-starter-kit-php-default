@@ -8,5 +8,5 @@ Get to know the Fastly Compute@Edge environment with a basic starter that demons
 
 ## Understanding the code
 
-This starter is intentionally lightweight, and requires no dependencies aside from the [`"fastly-php-runtime-tool"`](github.com/bbutkovic/fastly-php-runtime-tool). 
+This starter is intentionally lightweight, and requires no dependencies aside from the [`"fastly-php-runtime-tool"`](https://github.com/bbutkovic/fastly-php-runtime-tool). 
 It will help you understand the basics of processing requests at the edge using Fastly.

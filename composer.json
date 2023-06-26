@@ -17,5 +17,9 @@
     ],
     "require-dev": {
         "bbutkovic/fastly-php-runtime-tool": "dev-main"
+    },
+    "scripts": {
+        "post-install-cmd": "vendor/bin/fastly-compute-php stubs:download",
+        "post-update-cmd": "vendor/bin/fastly-compute-php stubs:download"
     }
 }
